@@ -1,0 +1,15 @@
+{
+  "name": "ts-rust-lib",
+  "version": "1.0.0",
+  "description": "TypeScript FP library with rust-like tools",
+  "main": "index.js",
+  "repository": "git@github.com:dimitriyremerov/ts-rust-lib.git",
+  "author": "Dimitriy Remerov <dimitriy@remerov.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.64",
+    "@types/node": "^14.14.10",
+    "aws-sdk": "^2.801.0",
+    "typescript": "^4.1.2"
+  }
+}
