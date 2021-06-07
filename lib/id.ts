@@ -5,7 +5,7 @@ import { AppErr, errModule } from "./err";
 import { Result } from "./result";
 
 // TODO move to config
-const SALT = process.env.APP_KEY ?? "Generic Starred Secret";
+const SALT = process.env.APP_KEY ?? "Generic Secret";
 const saltBuffer = Buffer.from(SALT, "utf-8");
 
 export const createId = (idString: string): Result<string, IdErr> =>
